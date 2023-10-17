@@ -161,6 +161,8 @@ a:hover {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    margin-top: -60px;
+
 }
 
 
@@ -179,7 +181,7 @@ a:hover {
     padding-left: 120px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    margin-top: -80px;
+    margin-top: -90px;
 
 
 }
