@@ -1,11 +1,9 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: var(--txt);
 
-    /* outline: 1px solid red; */
 }
 
 .main {
@@ -32,7 +30,7 @@ h1 {
 }
 
 .first {
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 30px;
 
     align-items: flex-end;
@@ -47,14 +45,14 @@ h1 {
 }
 
 .second {
-    padding-left: 30px;
+    padding-left: 120px;
 
 
 
 }
 
 h3 {
-    padding-left: 30px;
+    padding-left: 120px;
     padding-bottom: 30px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -68,11 +66,12 @@ h3 {
     padding-top: 20px;
     padding-bottom: 20px;
     flex-flow: column wrap;
-    width: 33%;
+    width: 36%;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 700;
     color: black;
+
 
 }
 
@@ -81,11 +80,16 @@ input {
     border: 1px solid rgb(77, 77, 77);
     border-radius: 3px;
     height: 35px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-left: 3%;
+
 }
 
 input:focus {
     outline: none;
-    border: 2px solid var(--color);
+    outline: 2px solid red;
 }
 
 label {
@@ -97,8 +101,10 @@ form {
 
     display: flex;
     flex-flow: row wrap;
-    gap: 40px;
+    gap: 50px;
     padding-top: 20px;
+
+
 
 }
 
@@ -170,7 +176,7 @@ a:hover {
     color: white;
     gap: 20px;
     text-decoration: none;
-    padding-left: 30px;
+    padding-left: 120px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     margin-top: -80px;
@@ -178,9 +184,16 @@ a:hover {
 
 }
 
+img {
+    height: 100vh;
+    display: flex;
 
 
-@media only screen and (max-width: 1000px) {
+}
+
+
+
+@media only screen and (max-width: 1100px) {
     .left {
         flex-flow: column;
         height: auto;
